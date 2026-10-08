@@ -1,0 +1,7 @@
+# 运行时依赖
+# 程序主体只使用 Python 标准库（tkinter / ctypes / winreg / socket ...）。
+# 以下仅用于 Windows 平台的系统托盘能力，缺失时托盘自动禁用，其余功能不受影响。
+pywin32>=306; sys_platform == "win32"
+
+# 打包依赖（仅在需要生成单文件可执行程序时安装）
+# pyinstaller>=6.0

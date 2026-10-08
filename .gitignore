@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+.venv/
+venv/
+.idea/
+.vscode/
+
+# 误创建的空嵌套 git 仓库，会让 git add 报 “does not have a commit checked out”。
+# 手动删掉该目录后可以移除这一行。
+/master/
